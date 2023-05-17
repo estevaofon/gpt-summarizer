@@ -14,9 +14,9 @@ You can obtain an OpenAI API key by creating an account on the [OpenAI website](
 ## Installation
 
 1. Clone this repository to your local machine.
-2. Install the `openai` Python package if you haven't already. You can install it using pip:
+2. Install the requirements
     ```bash
-    pip install openai
+    pip install -r requirements.txt
     ```
 3. Open the script file and replace `'your-openai-api-key'` with your actual OpenAI API key.
 
@@ -25,5 +25,6 @@ You can obtain an OpenAI API key by creating an account on the [OpenAI website](
 To use the script, pass the path to a file containing the code you want to summarize as an argument when you run the script:
 
 ```bash
-python script.py /path/to/your/code.py
+python summarize.py /path/to/your/code.py
+```
 
